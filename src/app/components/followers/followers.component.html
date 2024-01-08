@@ -1,0 +1,15 @@
+<div class="user-details-header">
+    <h1>Followers</h1>
+  </div>
+<div class="table-container">
+    <table class="user-details-table">
+          <tbody>
+            <tr *ngFor="let f of fols">
+                <td rowspan="2" class="user-image-cell">
+                    <img src="{{f.avatar_url}}" class="user-image" alt="User Image">
+                  </td>
+                  <td rowspan="2"><a href="{{ f.html_url }}" target="_blank">{{ f.login }}</a></td>
+            </tr>
+          </tbody>
+    </table>
+</div>

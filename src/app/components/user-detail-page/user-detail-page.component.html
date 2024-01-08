@@ -1,0 +1,49 @@
+<div class="user-details-header">
+  <h1>User Details</h1>
+</div>
+
+<div class="table-container">
+  <table class="user-details-table">
+    <tbody>
+      <tr>
+        <td rowspan="4" class="user-image-cell">
+          <img src="{{imgurl}}" class="user-image" alt="User Image">
+        </td>
+        <th>UserName</th>
+        <td>{{username}}</td>
+      </tr>
+      <tr>
+        <th>Name</th>
+        <td>{{pname}}</td>
+      </tr>
+      <tr>
+        <th>Bio</th>
+        <td>{{bio}}</td>
+      </tr>
+      <tr>
+        <th>Company</th>
+        <td>{{company}}</td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <th>Repositories</th>
+        <td><a class="nav-link" [routerLink]="['searchrepositories']">View Repositories</a></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <th>Followers</th>
+        <td><a class="nav-link" [routerLink]="['searchfollowers']">{{followers}}</a></td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <td>{{location}}</td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <th>URL</th>
+        <td colspan="2"><a href="{{profileurl}}">{{profileurl}}</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,19 @@
+<div class="user-details-header">
+    <h1>Repositories</h1>
+  </div>
+<div class="table-container">
+    <table class="user-details-table">
+        <thead>
+            <tr>
+              <th>Repository Name</th>
+              <th>Repository URL</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let r of repos">
+              <td>{{ r.name }}</td>
+              <td><a href="{{ r.html_url }}" target="_blank">{{ r.html_url }}</a></td>
+            </tr>
+          </tbody>
+    </table>
+</div>

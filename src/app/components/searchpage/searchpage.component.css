@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px; /* Adjust the gap between label and input */
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    margin-right: 8px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  button.btn-primary {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.btn-primary:hover {
+    background-color: rgb(59, 58, 58);
+  }
+  
+  input[type="text"]::placeholder {
+    color: rgb(59, 58, 58);
+  }
+  

@@ -20,7 +20,7 @@ GitHub User Explorer is a web application developed as part of my preliminary le
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/github-user-explorer.git
+   git clone https://github.com/samyuktha-12/github-user-explorer.git
    ```
 
 2. **Navigate to the project directory:**
